@@ -1,0 +1,26 @@
+$color: #fff;
+$background: #00ffab;
+$header-footer: #14c38e;
+$card-body: #b8f1b0;
+$element: #fff;
+
+body {
+  color: $color;
+  background-color: $background;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#deneme {
+  background-color: $element;
+}
+
+.card-header,
+.card-footer {
+  background-color: $header-footer;
+}
+
+.card-body {
+  background-color: $card-body;
+}
